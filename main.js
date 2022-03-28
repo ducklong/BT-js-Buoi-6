@@ -46,9 +46,4 @@ document.getElementById("btnShow__bt1").onclick = function () {
   };
   
   
-  // bt4
-  document.getElementById("btnDiv__bt4").onclick = function () {
-    var 
-    for()
-   
-  }
+ 
