@@ -44,6 +44,22 @@ document.getElementById("btnShow__bt1").onclick = function () {
     document.getElementById("footerCard__bt3").innerHTML = "Giai thừa của số n= "+giaithua;
     
   };
+
+// bt4
+document.getElementById("btnDiv__bt4").onclick = function () {
+  var div = "";
+
+  for (var i = 1; i <= 10; i++) {
+    if (i % 2 == 0) {
+      console.log(i);
+      div += "<div style='background-color: red;'>" + i + "</div>";
+    } else {
+      console.log(i);
+      div += "<div style='background-color: blue;'>" + i + "</div>";
+    }
+    document.getElementById("inPlace").innerHTML = div;
+  }
+};
   
   
  
